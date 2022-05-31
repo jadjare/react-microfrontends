@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-const mount = (el) => {
+const mount = (el, config) => {
   ReactDOM.render(<App />, el);
 };
 
